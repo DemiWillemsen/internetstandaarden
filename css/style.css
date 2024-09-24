@@ -1,0 +1,82 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(139, 171, 139);
+    color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2 rem;
+    background-color: (139, 171, 139);
+    color: rgb(253, 253, 253);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/*de klikbare dingen*/
+li {
+    size: 18cap;
+    color: black;
+    margin: 10px 20px;
+    letter-spacing: normal;
+    font: 500;
+}
+
+/*CMDsurvivalgids*/
+h1 {
+    color: rgb(229, 212, 20);
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+/*de contact gegevens*/
+p  {
+    margin: 0.2em;
+    padding: 0.3em;
+    background-color: beige;
+    text-align: left;
+    border: 5px solid black;
+}
+
+.logosurvivalgids {
+    width: 150px;
+    height: 150px;
+}
+
+.overonsfoto {
+    width: 150px;
+    height: 270px;
+}
+
+nav a { 
+    color: beige;
+}
+
+a {
+    color: rgb(220, 40, 136);
+    background-color: rgb(124, 162, 137);
+    display: inline-block;
+    transition: all 0.65s ease 0.05s;
+}
+
+a:visited {
+    color: rgb(229, 247, 236);
+}
+
+a:hover {
+    color: rgb(26, 78, 50);
+    background-color: beige;
+    transform: scale(1.4) rotate(0deg);
+}
